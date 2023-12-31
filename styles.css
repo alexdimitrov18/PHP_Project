@@ -1,0 +1,527 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-size: cover;
+  background-color: #222020 !important;
+  color: white;
+}
+
+/*Index page css*/
+
+.main {
+  background-image: url(Images/8oiV9hW.png);
+  /*https://imgur.com/gallery/s1yrwSR*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+
+/*Login css*/
+
+#log_form {
+  border: solid white 2px;
+  width: 35%;
+  border-radius: 5px;
+  margin: 100px auto;
+  background: rgba(44, 42, 42, 0.884);
+  color: white;
+  padding: 35px;
+  padding-left: 12px;
+}
+
+#log_btn {
+  color: white;
+  background: #1c405fcb;
+  padding: 5px;
+  margin-left: 69%;
+  margin-top: 10px;
+}
+
+/*Error message*/
+.error {
+  color: red !important;
+}
+
+.error::before {
+  display: none;
+}
+
+/* Member profiles*/
+
+#dustinp {
+  display: none;
+}
+
+#brockp {
+  display: none;
+}
+
+#ronp {
+  display: none;
+}
+
+#adamp {
+  display: none;
+}
+
+/* Album profiles */
+
+#tran {
+  display: none;
+}
+
+#vesa {
+  display: none;
+}
+
+#diva {
+  display: none;
+}
+
+/*Album Buttons*/
+
+#btnTRD {
+  box-shadow: inset 0px 1px 0px 0px #050505;
+  background: linear-gradient(to bottom, #9b9b9b 5%, #888084 100%);
+  background-color: #333333;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 6px 24px;
+}
+
+#btnTRD:hover {
+  background: linear-gradient(to bottom, #3b3b3b 5%, #1d1a1c 100%);
+  background-color: #000000;
+}
+
+#btnTDRD {
+  box-shadow: inset 0px 1px 0px 0px #050505;
+  background: linear-gradient(to bottom, #9b9b9b 5%, #888084 100%);
+  background-color: #333333;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 6px 24px;
+}
+
+#btnTDRD:hover {
+  background: linear-gradient(to bottom, #3b3b3b 5%, #1d1a1c 100%);
+  background-color: #000000;
+}
+
+#btnTM {
+  box-shadow: inset 0px 1px 0px 0px #050505;
+  background: linear-gradient(to bottom, #9b9b9b 5%, #888084 100%);
+  background-color: #333333;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 6px 24px;
+}
+
+#btnTM:hover {
+  background: linear-gradient(to bottom, #3b3b3b 5%, #1d1a1c 100%);
+  background-color: #000000;
+}
+
+#btnTS {
+  box-shadow: inset 0px 1px 0px 0px #050505;
+  background: linear-gradient(to bottom, #9b9b9b 5%, #888084 100%);
+  background-color: #333333;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 6px 24px;
+}
+
+#btnTS:hover {
+  background: linear-gradient(to bottom, #3b3b3b 5%, #1d1a1c 100%);
+  background-color: #000000;
+}
+
+#btnVRD {
+  box-shadow: inset 0px 1px 0px 0px #050505;
+  background: linear-gradient(to bottom, #9b9b9b 5%, #888084 100%);
+  background-color: #333333;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 6px 24px;
+}
+
+#btnVRD:hover {
+  background: linear-gradient(to bottom, #3b3b3b 5%, #1d1a1c 100%);
+  background-color: #000000;
+}
+
+#btnVDRD {
+  box-shadow: inset 0px 1px 0px 0px #050505;
+  background: linear-gradient(to bottom, #9b9b9b 5%, #888084 100%);
+  background-color: #333333;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 6px 24px;
+}
+
+#btnVDRD:hover {
+  background: linear-gradient(to bottom, #3b3b3b 5%, #1d1a1c 100%);
+  background-color: #000000;
+}
+
+#btnVM {
+  box-shadow: inset 0px 1px 0px 0px #050505;
+  background: linear-gradient(to bottom, #9b9b9b 5%, #888084 100%);
+  background-color: #333333;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 6px 24px;
+}
+
+#btnVM:hover {
+  background: linear-gradient(to bottom, #3b3b3b 5%, #1d1a1c 100%);
+  background-color: #000000;
+}
+
+#btnVS {
+  box-shadow: inset 0px 1px 0px 0px #050505;
+  background: linear-gradient(to bottom, #9b9b9b 5%, #888084 100%);
+  background-color: #333333;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 6px 24px;
+}
+
+#btnVS:hover {
+  background: linear-gradient(to bottom, #3b3b3b 5%, #1d1a1c 100%);
+  background-color: #000000;
+}
+
+#btnDRD {
+  box-shadow: inset 0px 1px 0px 0px #050505;
+  background: linear-gradient(to bottom, #9b9b9b 5%, #888084 100%);
+  background-color: #333333;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 6px 24px;
+}
+
+#btnDRD:hover {
+  background: linear-gradient(to bottom, #3b3b3b 5%, #1d1a1c 100%);
+  background-color: #000000;
+}
+
+#btnDM {
+  box-shadow: inset 0px 1px 0px 0px #050505;
+  background: linear-gradient(to bottom, #9b9b9b 5%, #888084 100%);
+  background-color: #333333;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 6px 24px;
+}
+
+#btnDM:hover {
+  background: linear-gradient(to bottom, #3b3b3b 5%, #1d1a1c 100%);
+  background-color: #000000;
+}
+
+#btnDS {
+  box-shadow: inset 0px 1px 0px 0px #050505;
+  background: linear-gradient(to bottom, #9b9b9b 5%, #888084 100%);
+  background-color: #333333;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 6px 24px;
+}
+
+#btnDS:hover {
+  background: linear-gradient(to bottom, #3b3b3b 5%, #1d1a1c 100%);
+  background-color: #000000;
+}
+
+/*Origin title position and buttons*/
+
+.title {
+  padding-bottom: 50px;
+}
+
+.origin_btn {
+  box-shadow: inset 0px 1px 0px 0px #050505;
+  background: linear-gradient(to bottom, #9b9b9b 5%, #888084 100%);
+  background-color: #333333;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 6px 24px;
+}
+
+.origin_btn:hover {
+  background: linear-gradient(to bottom, #3b3b3b 5%, #1d1a1c 100%);
+  background-color: #000000;
+}
+
+/*Space between tags*/
+
+span::after {
+  content: " ";
+  display: inline-block;
+}
+
+span::before {
+  content: " ";
+  display: inline-block;
+  width: 32px;
+}
+
+
+/*Members thumbnail*/
+
+.members {
+  margin-top: 150px;
+  align-content: center;
+  border-radius: 10px;
+}
+
+/*Member names*/
+
+.names {
+  text-align: center;
+}
+
+
+/*Members and Albums close buttons */
+button.close {
+  border-radius: 25px;
+  height: 40px;
+  width: 40px;
+  background-color: #64686b;
+  color: #ffffff;
+}
+
+
+button.closea {
+  border-radius: 25px;
+  height: 40px;
+  width: 40px;
+  background-color: #64686b;
+  color: #ffffff;
+}
+
+
+/*Cookie css*/
+
+#gdpr-cookie-message {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  max-width: 375px;
+  background-color: black;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 30px;
+  font-family: system-ui;
+}
+
+#gdpr-cookie-message h4 {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#gdpr-cookie-message h5 {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#gdpr-cookie-message p,
+#gdpr-cookie-message ul {
+  color: white;
+  font-size: 15px;
+  line-height: 1.5em;
+}
+
+#gdpr-cookie-message p:last-child {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+#gdpr-cookie-message li {
+  width: 49%;
+  display: inline-block;
+}
+
+#gdpr-cookie-message a {
+  color: var(--red);
+  text-decoration: none;
+  font-size: 15px;
+  padding-bottom: 2px;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.75);
+  transition: all 0.3s ease-in;
+}
+
+#gdpr-cookie-message a:hover {
+  color: white;
+  border-bottom-color: red;
+  transition: all 0.3s ease-in;
+}
+
+#gdpr-cookie-message button,
+button#ihavecookiesBtn {
+  border: none;
+  background: white;
+  color: #64686b;
+  font-size: 15px;
+  padding: 7px;
+  border-radius: 3px;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+#gdpr-cookie-message button:hover {
+  background: #64686b;
+  color: white;
+}
+
+button#gdpr-cookie-advanced {
+  background: grey;
+  color: black;
+}
+
+#gdpr-cookie-message button:disabled {
+  opacity: 0.3;
+}
+
+#gdpr-cookie-message input[type="checkbox"] {
+  float: none;
+  margin-top: 0;
+  margin-right: 5px;
+}
+
+
+/*Privacy Policy*/
+
+.policy {
+  width: 100%;
+  border: 1px solid white;
+  background-color: #606060;
+}
+
+.left {
+  width: 1%;
+}
+
+.middle {
+  background-color: lightgrey;
+  color: black;
+  width: 35%;
+  border: 1px solid white;
+  text-align: center;
+  padding: 10px;
+}
+
+.priv_img {
+  float: left;
+  height: 80px;
+  width: 80px;
+}
+
+.middle_space {
+  width: 1%;
+  border: 0px solid white;
+}
+
+.middle_2 {
+  width: 20%;
+  border: 1px solid white;
+  color: black;
+}
+
+.right {
+  width: 1%;
+}
+
+.top {
+  height: 35px;
+  border: 0px solid white;
+}
+
+.hide_mid {
+  border: 0px solid white;
+  background-color: #606060;
+}
+
+.main_tbl {
+  height: 75px;
+}
+
+.bottom {
+  height: 27px;
+  border: 0px solid white;
+}
+
+.space {
+  height: 8px;
+}
+
+.priv_title {
+  font-weight: bold;
+}
+
+.merged {
+  border: 0px solid white;
+  text-align: center;
+  color: white;
+}
+
+.emphasis {
+  color: red;
+}
+
+.emphasis::before {
+  display: none;
+}
+
+#usr::after {
+  display: none;
+}
+
+#seal {
+  height: 220px;
+  width: 210px;
+}

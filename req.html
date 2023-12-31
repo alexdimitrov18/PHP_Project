@@ -1,0 +1,91 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Requirements page</title>
+	<link rel="stylesheet" href="reqStyle.css">
+</head>
+<body>
+
+<h1>CMP204 Requirements Page - Unit 2 Assessment</h1>
+
+<p>If you have not met a requirement, do not delete it from the table.</p>
+
+<table>
+  <tr>
+    <th class="reqCol">Requirement</th>
+    <th class="metCol">How did you meet this requirement?</th>
+    <th class="fileCol">File name(s), line no.</th>
+  </tr>
+  <tr>
+    <td>A clear use of HTML5</td>
+    <td>All of the HTML5 tags are formated for easier reading, which also prevents from making accidental mistakes. Only HTML5 tag formatting has been used.</td>
+    <td>All php files except Logout.php</td>
+  </tr>
+  <tr>
+    <td>Use of the Bootstrap framework providing a responsive layout </td>
+    <td>Usage of grid and bootstrap navigation bar to provide a responsive design for mobile and desktop.</td>
+    <td>All php files except Logout.php</td>
+  </tr>
+  <tr>
+    <td>Use of AJAX (pure JavaScript i.e. without the use of a library)</td>
+    <td>Pure JS AJAX has been used in script.js (lines 1-34). The code loads .txt files from Band_Info folder in origin.php. The function is executed with buttons.</td>
+    <td>script.js
+        origin.php
+    </td>
+  </tr>
+  <tr>
+    <td>Use of the jQuery AJAX function</td>
+    <td>jQuery AJAX has been used in script.js (lines 35-132) to load information in members.php and albums.php. In members.php the data is loaded by clicking on the h tag with the name of the artist. In album.php it is loaded by clicking on buttons. jQuery DOM manipulation from coursework 1 was reused in said php files.</td>
+    <td>script.js
+        members.php
+        albums.php
+    </td>
+  </tr>
+  <tr>
+    <td>User login functionality (PHP/MySQL)</td>
+    <td>Login functionality can be accessed through login.php. The form requires both username and password to work. The login is done with the password_verify function which hashes and salts the plain text input of the user and compares it to the hashed and salted password in the database (table users). The navigation bar changes whenever a user logs in (Login changes to Logout and the username appears as a navbar link leading to profile.php) Logout.php destroys the current session, which logs out the user and forwards them to login.php.</td>
+    <td>login.php
+        logout.php
+    </td>
+  </tr>
+  <tr>
+    <td>Ability to select, add, edit and delete information from a database (PHP/MySQL)</td>
+    <td>Such functions were implemented in the profile.php page, which is accessible only after a user has logged in. Four buttons were added to the same form and each was accessed with the "array_key_exists" function. The submission button requires data in all fields marked with a red star. Delete button directly deletes all data for the specific user. Show Data selects the data from the database and displays it to the right of the form. Update allows the user to update the info for only one cell of the table depending on which field had any user input. All of the data is stored in the database (Table userInfo) based on the user's username. The username stored in the session is the same as the ID column in the table, which allows access/submission of data only for the specified user.</td>
+    <td>profile.php</td>
+  </tr>
+  <tr>
+    <td>Appropriate consideration of relevant laws</td>
+    <td>A Privacy policy page was added with a custom GDPR template. A jQuery cookie plugin was used to gather cookies after the user's consent. (Cookie notification appears in index.php)</td>
+    <td>cookies.js
+        jquery.ihavecookies.min.js
+        privacy_policy.php
+    </td>
+  </tr>
+  <tr>
+    <td>SQL queries should be written as prepared statements</td>
+    <td>All SQL queries were changed to prepared statements in both profile.php and login.php.</td>
+    <td>login.php
+        profile.php
+    </td>
+  </tr>
+  <tr>
+    <td>Passwords should be salted and hashed</td>
+    <td>Passwords stored in the database (Table users) were pre-hashed and salted using the default php password_hash function. Then they are verified with the use of password_verify.</td>
+    <td>login.php</td>
+  </tr>
+  <tr>
+    <td>Validation of user input</td>
+    <td>Both login.php and profile.php have user input validation for all input fields. A function takes the input then implements the trim, stripslashes and htmlspecialchars functions then returns the result. Said result is used in prepared statements and stored in the database (Table userInfo) if it's personal data of the user.</td>
+    <td>login.php
+        profile.php
+    </td>
+  </tr>
+</table>
+		
+</body>
+</html>
+
+
+

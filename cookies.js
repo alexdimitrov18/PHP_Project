@@ -1,0 +1,3 @@
+// Cookies
+
+$('.main').ihavecookies();
