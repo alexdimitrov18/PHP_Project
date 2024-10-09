@@ -1,6 +1,3 @@
-Here's the updated README with the detailed section on responsiveness included, without the last paragraph:
-
----
 
 # Band Page PHP Project
 
